@@ -1,0 +1,2 @@
+g++ -o server server.cpp -std=c++14 -O3 -Ofast -lwsock32 -Iinclude/ -Llib/ -lraylib -lopengl32 -lgdi32 -lwinmm
+g++ -o client client.cpp -std=c++14 -O3 -Ofast -lwsock32 -Iinclude/ -Llib/ -lraylib -lrdrawing -lopengl32 -lgdi32 -lwinmm
